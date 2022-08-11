@@ -1,0 +1,46 @@
+.primary-badge {
+  background-color: rgb(232, 244, 253);
+  color: rgb(20, 139, 236);
+}
+
+.warning-badge {
+  background-color: rgb(255, 236, 218);
+  color: rgb(236, 142, 20);
+}
+
+.secondary-badge {
+  /* background-color: rgb(245, 244, 244);
+  color: rgb(92, 87, 82); */
+
+  background-color: rgb(243, 234, 247);
+  color: rgb(128, 29, 167);
+}
+
+.danger-badge {
+  background-color: rgb(255, 224, 231);
+  color: rgb(238, 65, 108);
+}
+
+.success-badge {
+  background-color: rgb(227, 255, 219);
+  color: rgb(63, 180, 27);
+}
+
+td {
+  font-size: 15px;
+}
+
+td img {
+  width: 25px;
+  height: 25px;
+}
+
+.view-button {
+  color: rgb(59, 150, 224);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.delete-icon {
+  cursor: pointer;
+}

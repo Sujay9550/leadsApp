@@ -1,0 +1,9 @@
+.brand {
+  background: linear-gradient(to right, #77c8ee, #4d83e9, #793de9);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.logout {
+  cursor: pointer;
+}

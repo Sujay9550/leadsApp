@@ -1,0 +1,18 @@
+.add-lead-container {
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(167, 192, 250, 0.2),
+    0 6px 20px 0 rgba(167, 192, 250, 0.19);
+  animation: lead-form-appear 1s ease-out forwards;
+}
+
+@keyframes lead-form-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

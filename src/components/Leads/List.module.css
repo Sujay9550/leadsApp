@@ -1,0 +1,31 @@
+.list-container {
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(167, 192, 250, 0.2),
+    0 6px 20px 0 rgba(167, 192, 250, 0.19);
+  animation: list-appear 1s ease-out forwards;
+}
+
+.lead-table {
+  border: 1px solid #ddd;
+}
+
+.lead-table > :not(:first-child) {
+  border-top: 0;
+}
+
+.lead-table thead {
+  color: #858788;
+  font-size: 16px;
+}
+
+@keyframes list-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

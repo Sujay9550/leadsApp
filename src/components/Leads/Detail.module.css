@@ -1,0 +1,103 @@
+.detail-container {
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(167, 192, 250, 0.2),
+    0 6px 20px 0 rgba(167, 192, 250, 0.19);
+  animation: lead-detail-appear 1s ease-out forwards;
+}
+
+.info-item {
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.info-item h5 {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.info-item p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.owner {
+  background-color: rgb(227, 255, 219);
+  color: rgb(63, 180, 27);
+  border: 0;
+}
+
+.status-prospect {
+  background-color: rgb(20, 139, 236);
+  color: #ffffff;
+  border: 0;
+}
+
+.status-pipeline {
+  background-color: rgb(236, 142, 20);
+  color: #ffffff;
+  border: 0;
+}
+
+.status-shortlisted {
+  background-color: rgb(128, 29, 167);
+  color: #ffffff;
+  border: 0;
+}
+
+.status-converted {
+  background-color: rgb(63, 180, 27);
+  color: #ffffff;
+  border: 0;
+}
+
+.status-closed-lost {
+  background-color: rgb(238, 65, 108);
+  color: #ffffff;
+  border: 0;
+}
+
+.slide-right {
+  animation: slide-right 1s ease-out forwards;
+}
+
+.slide-left {
+  animation: slide-left 1s ease-out forwards;
+}
+
+@keyframes lead-detail-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-right {
+  from {
+    opacity: 0;
+    transform: translateX(-6rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-left {
+  from {
+    opacity: 0;
+    transform: translateX(6rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

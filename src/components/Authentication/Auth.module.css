@@ -1,0 +1,40 @@
+.auth-container {
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(167, 192, 250, 0.2),
+    0 6px 20px 0 rgba(167, 192, 250, 0.19);
+  animation: auth-container-appear 1s ease-out forwards;
+}
+
+.auth-container .auth-image {
+  background-color: rgb(237, 244, 250);
+  border-radius: 15px;
+}
+
+.auth-container .form-container {
+  width: 100%;
+  animation: slide-down 1s ease-out forwards;
+}
+
+@keyframes auth-container-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-6rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

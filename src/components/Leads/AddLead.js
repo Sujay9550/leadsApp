@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import classes from "./AddLead.module.css";
+import * as classes from "./AddLead.module.css";
 
 const AddLead = (props) => {
   const [isEntering, setIsEntering] = useState(false);

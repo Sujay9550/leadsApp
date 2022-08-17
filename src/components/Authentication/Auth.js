@@ -4,7 +4,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import authImage from "../../img/auth.png";
 import AuthContext from "../../store/auth-context";
 import "react-lazy-load-image-component/src/effects/blur.css";
-import classes from "./Auth.module.css";
+import * as classes from "./Auth.module.css";
 
 const SIGNIN_URL = process.env.SIGNIN_URL;
 const SIGNUP_URL = process.env.SIGNUP_URL;

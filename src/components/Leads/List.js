@@ -1,7 +1,7 @@
 import LeadSummary from "./LeadSummary";
 import LeadItem from "./LeadItem";
 
-import classes from "./List.module.css";
+import * as classes from "./List.module.css";
 
 const List = (props) => {
   return (

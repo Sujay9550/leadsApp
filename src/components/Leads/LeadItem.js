@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import deleteIcon from "../../icons/delete.png";
 
-import classes from "./LeadItem.module.css";
+import * as classes from "./LeadItem.module.css";
 
 const LeadItem = (props) => {
   let statusBadge = `badge rounded-pill`;

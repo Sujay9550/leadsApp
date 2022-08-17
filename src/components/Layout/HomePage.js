@@ -3,7 +3,7 @@ import { LazyLoadImage } from "react-lazy-load-image-component";
 import homeImage from "../../img/home.png";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
-import classes from "./HomePage.module.css";
+import * as classes from "./HomePage.module.css";
 
 const HomePage = () => {
   return (

@@ -1,7 +1,7 @@
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import leadIcon from "../../icons/lead.png";
 import "react-lazy-load-image-component/src/effects/blur.css";
-import classes from "./Detail.module.css";
+import * as classes from "./Detail.module.css";
 
 const Detail = (props) => {
   let statusClass;

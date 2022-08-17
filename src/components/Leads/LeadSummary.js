@@ -1,4 +1,4 @@
-import classes from "./LeadSummary.module.css";
+import * as classes from "./LeadSummary.module.css";
 
 const LeadSummary = (props) => {
   const leads = props.leads;

@@ -10,7 +10,6 @@ const NotFound = () => {
           <LazyLoadImage
             src={notFoundImage}
             effect="blur"
-            width="600px"
             height="400px"
             className="img-fluid"
           ></LazyLoadImage>

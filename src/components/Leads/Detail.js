@@ -36,7 +36,6 @@ const Detail = (props) => {
           <LazyLoadImage
             src={leadIcon}
             effect="blur"
-            width="256px"
             height="256px"
             className="img-fluid"
           ></LazyLoadImage>

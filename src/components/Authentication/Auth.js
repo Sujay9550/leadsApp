@@ -110,7 +110,6 @@ const Auth = () => {
           <LazyLoadImage
             src={authImage}
             effect="blur"
-            width="330px"
             height="330px"
             className="img-fluid"
           ></LazyLoadImage>

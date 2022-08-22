@@ -10,7 +10,6 @@ const Error = (props) => {
           <LazyLoadImage
             src={errorImage}
             effect="blur"
-            width="400px"
             height="400px"
             className="img-fluid"
           ></LazyLoadImage>

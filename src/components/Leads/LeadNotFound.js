@@ -10,7 +10,6 @@ const LeadNotFound = () => {
           <LazyLoadImage
             src={warningIcon}
             effect="blur"
-            width="64px"
             height="64px"
             className="img-fluid"
           ></LazyLoadImage>

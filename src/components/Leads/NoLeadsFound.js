@@ -10,7 +10,6 @@ const NoLeadsFound = () => {
           <LazyLoadImage
             src={noLeadsIcon}
             effect="blur"
-            width="64px"
             height="64px"
             className="img-fluid"
           ></LazyLoadImage>

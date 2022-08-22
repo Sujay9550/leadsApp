@@ -13,7 +13,6 @@ const HomePage = () => {
           <LazyLoadImage
             src={homeImage}
             effect="blur"
-            width="100%"
             height="333px"
             className="img-fluid"
           ></LazyLoadImage>

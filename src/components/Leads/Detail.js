@@ -33,12 +33,15 @@ const Detail = (props) => {
     <div className={`container mt-5 p-5 ${classes["detail-container"]}`}>
       <div className="row p-2">
         <div className="col-lg-4 d-flex justify-content-center align-items-center">
-          <LazyLoadImage
-            src={leadIcon}
-            effect="blur"
-            height="256px"
-            className="img-fluid"
-          ></LazyLoadImage>
+          <div className={classes["detail-image"]}>
+            <LazyLoadImage
+              src={leadIcon}
+              effect="blur"
+              max-width="100%"
+              height="auto"
+              className="img-fluid"
+            ></LazyLoadImage>
+          </div>
         </div>
         <div className="col-lg-8 d-flex justify-content-center align-items-center">
           <div className="container">

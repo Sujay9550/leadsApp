@@ -1,0 +1,9 @@
+.notfound-image {
+  height: 400px;
+}
+
+@media (max-width: 576px) {
+  .notfound-image {
+    height: auto;
+  }
+}

@@ -13,10 +13,19 @@ const Footer = () => {
               <span id="year"> {new Date().getFullYear()} </span>
               <span>
                 Designed & Developed by
-                <span className="text-primary"> Sujay</span>
+                <span className="text-primary">
+                  <a
+                    href="https://sujay9550.netlify.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {" "}
+                    Sujay
+                  </a>
+                </span>
               </span>
             </p>
-            <p className={`${classes["credits"]} text-secondary mb-0`}>
+            <p className={`${classes.credits} text-secondary mb-0`}>
               Icons & Images Credits -
               <a
                 href="https://www.flaticon.com/icons"

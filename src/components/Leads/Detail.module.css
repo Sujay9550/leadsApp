@@ -5,6 +5,10 @@
   animation: lead-detail-appear 1s ease-out forwards;
 }
 
+.detail-image {
+  height: 256px;
+}
+
 .info-item {
   border-radius: 15px;
   padding: 10px;
@@ -99,5 +103,11 @@
   to {
     opacity: 1;
     transform: translateX(0);
+  }
+}
+
+@media (max-width: 576px) {
+  .detail-image {
+    height: auto;
   }
 }

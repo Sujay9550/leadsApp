@@ -107,12 +107,15 @@ const Auth = () => {
     <div className={`container ${classes["auth-container"]} mt-5 p-5`}>
       <div className="row">
         <div className={`col-lg-6 p-5 text-center ${classes["auth-image"]}`}>
-          <LazyLoadImage
-            src={authImage}
-            effect="blur"
-            height="330px"
-            className="img-fluid"
-          ></LazyLoadImage>
+          <div className={classes["authimage-container"]}>
+            <LazyLoadImage
+              src={authImage}
+              effect="blur"
+              max-width="100%"
+              height="auto"
+              className="img-fluid"
+            ></LazyLoadImage>
+          </div>
           <h5>Start creating new leads. Login or Signup</h5>
         </div>
         <div className="col-lg-6 p-5 d-flex justify-content-center align-items-center">

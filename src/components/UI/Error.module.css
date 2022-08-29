@@ -1,0 +1,9 @@
+.error-image {
+  height: 400px;
+}
+
+@media (max-width: 576px) {
+  .error-image {
+    height: auto;
+  }
+}

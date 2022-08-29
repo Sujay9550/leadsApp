@@ -10,12 +10,15 @@ const HomePage = () => {
     <div className="container mt-5 p-5 text-center">
       <div className="row">
         <div className="col-lg-12">
-          <LazyLoadImage
-            src={homeImage}
-            effect="blur"
-            height="333px"
-            className="img-fluid"
-          ></LazyLoadImage>
+          <div className={classes["home-image"]}>
+            <LazyLoadImage
+              src={homeImage}
+              effect="blur"
+              max-width="100%"
+              height="auto"
+              className="img-fluid"
+            ></LazyLoadImage>
+          </div>
           <div className={`${classes["home-content"]}`}>
             <h2>
               Win and retain more customers by optimizing the sales process

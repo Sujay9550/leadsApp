@@ -10,6 +10,10 @@
   border-radius: 15px;
 }
 
+.authimage-container {
+  height: 330px;
+}
+
 .auth-container .form-container {
   width: 100%;
   animation: slide-down 1s ease-out forwards;
@@ -36,5 +40,11 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@media (max-width: 576px) {
+  .authimage-container {
+    height: auto;
   }
 }
